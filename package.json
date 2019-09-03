@@ -2,7 +2,7 @@
   "name": "servicemanager",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "app.js",
   "scripts": {
     "client-install": "npm install --prefix client",
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
@@ -27,6 +27,7 @@
     "if-env": "^1.0.4",
     "material-ui": "^0.20.2",
     "mongoose": "^5.0.17",
+    "path": "^0.12.7",
     "react": "^16.7.0",
     "react-bootstrap": "^0.32.4",
     "react-dom": "^16.7.0",
